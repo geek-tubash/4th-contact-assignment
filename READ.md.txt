@@ -1,0 +1,40 @@
+# Cancer Incidence Data Analysis as 4th COntact Session for Bincom Academy📊
+
+This project performs linear regression analysis on cancer incidence rates from county-level data.
+
+## 📁 Files
+
+- `icnd.csv`: Raw data on age-adjusted incidence rates per 100,000 people.
+- `regression_analysis.ipynb`: Jupyter Notebook that runs linear regression using Scikit-learn.
+- `README.md`: This file.
+
+## 🧪 Analysis Performed
+
+- Data cleaning and transformation
+- Conversion to numeric types
+- Linear regression using `sklearn`
+- Scatter plot with regression line
+
+## 📊 Libraries Used
+
+- pandas
+- matplotlib
+- scikit-learn
+
+## 🔍 Output
+
+Linear regression model showing the relationship between **Average Annual Count** and **Age-Adjusted Incidence Rate**.
+
+---
+
+### 📷 Screenshot 
+
+![Plot Screenshot](plot.png)  
+
+---
+
+### 📌 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/geek-tubash/4th-contact-assignment.git
