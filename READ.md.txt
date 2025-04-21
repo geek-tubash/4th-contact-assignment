@@ -1,40 +1,39 @@
-# Cancer Incidence Data Analysis as 4th COntact Session for Bincom Academy📊
+# 4th Contact Session Assignment
 
-This project performs linear regression analysis on cancer incidence rates from county-level data.
+This project contains a data analysis assignment completed during the 4th contact session at Bincom Academy.
 
+## Files Included
+
+- `icnd.csv`: This is the dataset used for analysis. It contains information about age-adjusted cancer incidence rates across various counties in the United States. Key columns include:
+  - `County`
+  - `Age-Adjusted Incidence Rate – cases per 100000`
+  - `Average Annual Count`
+  - `Recent Trend`
+  - ...and other relevant statistical metrics.
 ## 📁 Files
 
 - `icnd.csv`: Raw data on age-adjusted incidence rates per 100,000 people.
 - `regression_analysis.ipynb`: Jupyter Notebook that runs linear regression using Scikit-learn.
 - `README.md`: This file.
 
-## 🧪 Analysis Performed
+- `analysis.ipynb`: A Jupyter Notebook that performs data cleaning, exploration, and simple visualizations based on the dataset.
 
-- Data cleaning and transformation
-- Conversion to numeric types
-- Linear regression using `sklearn`
-- Scatter plot with regression line
-
-## 📊 Libraries Used
-
-- pandas
-- matplotlib
-- scikit-learn
-
-## 🔍 Output
-
-Linear regression model showing the relationship between **Average Annual Count** and **Age-Adjusted Incidence Rate**.
-
----
-
-### 📷 Screenshot 
-
-![Plot Screenshot](plot.png)  
-
----
-
-### 📌 How to Run
+## How to Run
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/geek-tubash/4th-contact-assignment.git
+2. Open `analysis.ipynb` in Jupyter Notebook or VS Code
+3. Ensure `pandas` and `matplotlib` are installed
+4. Run the cells step-by-step
+
+## Requirements
+
+- Python 3.10+
+- pandas
+- matplotlib (optional, for plotting)
+
+
+### 📷 Screenshot 
+
+![Plot Screenshot](plot.png)  
